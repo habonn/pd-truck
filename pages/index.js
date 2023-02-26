@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -27,7 +26,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               By{' '}
-              <Image
+              {/* <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
                 className={styles.vercelLogo}
@@ -35,13 +34,13 @@ export default function Home() {
                 unoptimized={true}
                 height={24}
                 priority
-              />
+              /> */}
             </a>
           </div>
         </div>
 
         <div className={styles.center}>
-          <Image
+          {/* <Image
             className={styles.logo}
             src="/next.svg"
             alt="Next.js Logo"
@@ -49,16 +48,16 @@ export default function Home() {
             height={37}
             unoptimized={true}
             priority
-          />
+          /> */}
           <div className={styles.thirteen}>
-            <Image
+            {/* <Image
               src="/thirteen.svg"
               alt="13"
               width={40}
               height={31}
               unoptimized={true}
               priority
-            />
+            /> */}
           </div>
         </div>
 
